@@ -20,13 +20,13 @@ body {
   display: flex;
 }
 
-.logo-fb svg{
+.logo-sb svg{
   color: #4287f5;
   font-size: 40px;
   margin: 0 10px;
 }
 
-.search-fb {
+.search-sb {
   background-color: rgb(230, 230, 230);
   width: 40px;
   height: 40px;
@@ -35,23 +35,23 @@ body {
   line-height: 40px;
 }
 
-.search-fb svg {
+.search-sb svg {
   color: gray;
   font-size: 15px;
 }
 
-.menu-fb {
+.menu-sb {
   cursor: pointer;
   margin-left: 25px;
   position: relative;
   padding: 8px 10px;
 }
 
-.menu-fb:hover {
+.menu-sb:hover {
   background-color: rgb(200, 200, 200);
 }
 
-.menu-fb svg {
+.menu-sb svg {
   color: gray;
   font-size: 25px;
 }
