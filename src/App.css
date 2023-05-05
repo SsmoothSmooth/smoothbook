@@ -123,6 +123,75 @@ body {
   border: 0;
 }
 
-.feedForm input {
-  outline: 0;
+.feedForm input:focus {
+  outline: none;
+}
+
+.feedIcons {
+  padding: 20px 40px;
+  display: flex;
+}
+
+.iconSingle {
+  width: 33.3%;
+  text-align: center;
+}
+
+.iconSingle svg {
+  vertical-align: middle;
+  font-size: 25px;
+  color: #f02849;
+}
+
+.iconSingle.img svg {
+  color: #45bd62;
+}
+
+.iconSingle.emoji svg {
+  color: yellow;
+}
+
+.iconSingle span {
+  font-weight: bold;
+  color: gray;
+  margin: 0 10px;
+}
+
+.feedPostSingle {
+  margin: 20px 0;
+  background-color: white;
+}
+
+.feedPost_profile {
+padding: 10px;
+}
+
+.feedPost_profile h3 {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 8px 10px;
+  }
+
+  .feedPost_profile h3 > span {
+    font-weight: normal;
+    font-size: 15px;
+  }
+
+
+.feedPost_profile img {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+
+.feedPost_content p {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.feedPost_content img {
+  width: 100%;
+  display: block;
 }
